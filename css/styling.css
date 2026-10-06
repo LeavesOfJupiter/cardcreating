@@ -1,0 +1,80 @@
+/* webpage visuals */
+
+body {
+    background-color: pink;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+/* card design */
+
+.card {
+    width: 900px;
+    height: 600px;
+    background-color: white;
+    position: absolute;
+    top: 75px;
+    left: 400px;
+    border-radius: 7px;
+}
+
+.stamp {
+    position: absolute;
+    top: 30px; 
+    left: 730px;
+}
+
+.stamp-overlay {
+    position: absolute;
+    top: 39px; 
+    left: 740px;
+}
+
+.header {
+    background-color: salmon;
+    color: white;
+    margin: 0px;
+    border-radius: 7px 7px 0px 0px;
+    padding: 12px;
+}
+
+.address {
+    font-size: 1.5em;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-right: 200px;
+}
+.text {
+    padding: 12px;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-right: 200px;
+    font-size: 1.3em;
+}
+
+.signature {
+    text-align: right;
+    color: red;
+    margin-right: 200px;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+
+/* BONUS: animations; take away the / and * to activate* */
+
+
+/*
+.card:hover {
+    background-image: url('../images/fireworks.gif');
+} 
+
+.fadein {
+    animation: fadeinbg 2s;
+}
+
+@keyframes fadeinbg {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+}
+
+*/
