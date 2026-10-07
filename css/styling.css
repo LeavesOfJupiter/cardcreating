@@ -1,5 +1,4 @@
 :root {
-    --card-color: rgb(219, 148, 255); 
     --signature-color: rgb(0, 64, 255);
 }
 /* You can edit all the colors of the card here in one place! Change the colors to see how your card changes.
@@ -23,7 +22,7 @@ font-family: "Chewy", system-ui;
 .card {
     width: 900px;
     height: 600px;
-    background-color: var(--card-color);
+    background: radial-gradient(circle,rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 54%, rgba(200, 0, 255, 1) 100%);
     position: absolute;
     top: 75px;
     left: 400px;
