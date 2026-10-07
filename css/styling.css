@@ -1,5 +1,4 @@
 :root {
-    --body-color: rgb(237, 192, 255);
     --card-color: rgb(219, 148, 255); 
     --signature-color: rgb(0, 64, 255);
 }
@@ -9,7 +8,7 @@
 /* webpage visuals */
 
 body {
-    background-color: var(--body-color);
+    background-image: url(../images/bgimg.jpg);
     font-family:'Courier New', Courier, monospace
 }
 
