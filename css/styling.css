@@ -23,13 +23,22 @@ font-family: "Chewy", system-ui;
 .card {
     width: 900px;
     height: 600px;
-    background-color: var(--card-color);
     position: absolute;
     top: 75px;
     left: 400px;
     border-radius: 7px;
     -webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 28px 5px rgba(0,0,0,0); 
 box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 28px 5px rgba(0,0,0,0);
+}
+
+.card2{
+    width: 900px;
+    height: 600px;
+    background: radial-gradient(circle,rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 86%, rgba(229, 135, 255, 1) 100%);
+    position: absolute;
+    top: 75px;
+    left: 400px;
+    border-radius: 7px;
 }
 /* This class allows you to mess with the characteristics of the "card" itself, from the size to where it is on the page. Mess around with the values to see what happens!*/
 
