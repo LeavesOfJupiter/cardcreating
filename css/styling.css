@@ -1,9 +1,9 @@
 :root {
-    --body-color: pink;
-    --card-color: white; 
-    --header-color: salmon;
+    --body-color: rgb(237, 192, 255);
+    --card-color: rgb(219, 148, 255); 
+    --header-color: rgb(180, 141, 254);
     --text-color: white;
-    --signature-color: red;
+    --signature-color: rgb(0, 64, 255);
 }
 /* You can edit all the colors of the card here in one place! Change the colors to see how your card changes.
 
@@ -12,7 +12,7 @@
 
 body {
     background-color: var(--body-color);
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family:'Courier New', Courier, monospace
 }
 
 
@@ -75,9 +75,17 @@ font-family: "Chewy", system-ui;
 .signature {
     text-align: right;
     color: var(--signature-color);
-    margin-right: 200px;
+    margin-right: 100px;
     padding: 10px;
     font-size: 1.5em;
+}
+
+
+.signoff {
+    text-align: right;
+    margin-right: 300px;
+    padding: 10px;
+    font-size: 1.3rem;
 }
 
 
