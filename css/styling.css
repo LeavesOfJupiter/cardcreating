@@ -31,6 +31,8 @@ font-family: "Chewy", system-ui;
     top: 75px;
     left: 400px;
     border-radius: 7px;
+    -webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 28px 5px rgba(0,0,0,0); 
+box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 28px 5px rgba(0,0,0,0);
 }
 /* This class allows you to mess with the characteristics of the "card" itself, from the size to where it is on the page. Mess around with the values to see what happens!*/
 
@@ -86,6 +88,10 @@ font-family: "Chewy", system-ui;
     margin-right: 300px;
     padding: 10px;
     font-size: 1.3rem;
+}
+
+.image2 {
+    align-content: right;
 }
 
 
